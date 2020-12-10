@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Räkna</title>
+    </head>
+    <body style="background-color:rgba(255, 99, 71, 0.5);">
+        <h1>Räkna</h1>
+        <form action="/compute">
+            <label for="x">X:</label>
+            <input type="number" id="x" name="x" /><br /><br />
+            <label for="y">Y:</label>
+            <input type="number" id="y" name="y" /><br /><br />
+            <select id="op" name="op">
+                <option value="plus">+ plus</option>
+                <option value="minus">- minus</option>
+                <option value="times">* times</option>
+                <option value="div">+ div</option>
+            </select><br /><br />
+            <input type="submit" value="Compute it!" />
+        </form>
+    </body>
+</html>
